@@ -25,6 +25,7 @@ Such benchmarks contain only actual operations and constraints for the type-base
 This is done in the file 
 nanoXML_16vars.smt2 
 for the above benchmark and is located in the same directory. Each benchmark for a program and the number of variables has a corresponding type hierarchy encoding file in smt2 format for Z3. Thus, in order to have the "complete" smt2 file you need to append the benchmark file containing the queries to the type hierarchy encoding file. For example
+
 cat nanoXML_16vars.smt2 nanoXML_16vars_5deep_9.smt2 > completeBenchark.smt2
 
 Then completeBenchamrk.smt2 should be passed to Z3.
