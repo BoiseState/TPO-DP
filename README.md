@@ -1,4 +1,4 @@
-# DPO-DP
+# TPO-DP
 The source code and the benchmarks used in "Deciding Type-Based Partial-Order Constraints for Path-Sensitive Analysis"  paper by Elena Sherman, Brady J. Garvin, Matthew B. Dwyer (ACM Trans. Softw. Eng. Methodol)
 
 src folder contains Java source code for our implementation of bit vector solver (bitvector package) and slice solver (tpodp package).
