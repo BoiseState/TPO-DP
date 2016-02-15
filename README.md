@@ -11,6 +11,7 @@ benchmarks folder contains three suborders:
 lib folder contains a graph library (jgrapht-jdk1.5.jar) to store type hierarchies.
 
 ------------------------------------BENCHMARKS------------------------------------
+
 Benchmarks for each of the programs are located in the folder named after that program. For example for nanoXML closed benchmarks are located in "./benchmarks/closed/nanoXML".
 
 Each benchmark has the following naming
@@ -29,6 +30,7 @@ cat nanoXML_16vars.smt2 nanoXML_16vars_5deep_9.smt2 > completeBenchark.smt2
 Then completeBenchamrk.smt2 should be passed to Z3.
 
 ------------------------------------BITVECTOR------------------------------------
+
 Regular compilation just make sure to add ./lib/jgrapht-jdk1.5.jar to your classpath
 
 To run:
@@ -40,6 +42,7 @@ java bitvector.Driver ./benchmarks/converted-hierarchies/nanoXML.hierarchy  ./be
 
 
 ------------------------------------TPO-DP------------------------------------
+
 Regular compilation just make sure to add ./lib/jgrapht-jdk1.5.jar to your classpath 
 
 To run:
